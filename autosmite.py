@@ -98,6 +98,7 @@ def autosmite(terminate, settings, jungle_pointers, on_window):
                     elif GetAsyncKeyState(update_key):
                         damage = get_damage(rawNames, url_request)
 
+                sleep(0.001)
             except:
                 pass
             
